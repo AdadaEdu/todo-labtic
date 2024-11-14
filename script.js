@@ -22,6 +22,7 @@ function addTask() {
     // Contêiner para os botões de ação
     const actionContainer = document.createElement("div");
     actionContainer.classList.add("task-actions");
+    
 
     // Botão para marcar como concluída
     const completeBtn = document.createElement("button");
